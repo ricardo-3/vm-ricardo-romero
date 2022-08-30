@@ -1,8 +1,8 @@
 /* Fonts */
 
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:300&display=swap');
-@import url('https://fonts.googleapis.com/css?family=Reenie+Beanie&display=swap');
-
+/*@import url('https://fonts.googleapis.com/css?family=Reenie+Beanie&display=swap');*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 /* Basic */
 
 body {
@@ -51,7 +51,8 @@ h2 {
 }
 
 .cursive {
-	font-family: 'Reenie Beanie', cursive;
+	/*font-family: 'Reenie Beanie', cursive;*/	
+    font-family: 'Roboto', sans-serif; 
 	font-weight: bold;
 	font-size: 1.5rem;
 }
@@ -230,7 +231,7 @@ h2 {
 	top: 50%;
 	transform: translateY(-50%);
 	font-size: 50px;
-	font-family: 'Reenie Beanie', cursive;
+	font-family: 'Roboto', sans-serif;
 	font-weight: 400;
 	text-align: center;
 }
@@ -542,7 +543,7 @@ h2 {
 .spot-2 {
 	height: 100vh;
 	min-height: 500px;
-	background-image: url("../img/photo-2.jpg");
+	background-image: url("../img/rocio1.jpg");
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
